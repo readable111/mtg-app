@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 8.1.4"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
@@ -62,3 +63,5 @@ group :test do
 end
 
 gem "rack-cors", "~> 3.0"
+
+gem "faraday", "~> 2.15"
